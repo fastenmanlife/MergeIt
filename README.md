@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# 🖼️ MergeIt - Professional Image Stitching Tool
 
-This contains everything you need to run your app locally.
+**MergeIt** is a high-performance, mobile-first web application designed to merge multiple images into a single professional collage instantly. Built with a focus on speed, aesthetics, and user experience.
 
-View your app in AI Studio: https://ai.studio/apps/drive/11qwfnFWz1pI4Tb5dqaogxT1B83Gv0qEm
+## 🚀 Features
+- **Zero-Scroll UI**: Entire workflow fits within 100% of the viewport.
+- **10-Language Support**: Auto-detects user language (Arabic, English, French, Chinese, Russian, etc.).
+- **Smart Layouts**: Choose between Horizontal, Vertical, or Grid arrangements.
+- **Community Gate**: Integrated YouTube subscription logic to support creators.
+- **High-Resolution Output**: Uses HTML5 Canvas for high-quality image processing.
+- **Privacy First**: All processing happens locally in the browser; no images are uploaded to any server.
 
-## Run Locally
+## 🛠️ Tech Stack
+- **React 19** (Functional Components & Hooks)
+- **TypeScript** for type-safe logic.
+- **Tailwind CSS** for responsive, modern styling.
+- **Canvas API** for local image manipulation.
 
-**Prerequisites:**  Node.js
+## 📦 Getting Started
+1. Clone the repository.
+2. Open `index.html` in any modern browser.
+3. Start merging your images!
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📄 License
+MIT License - Created by **omrsofr**.

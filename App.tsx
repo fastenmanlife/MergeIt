@@ -133,10 +133,9 @@ export default function App() {
           <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M4 5v14h16V5H4zm14 12H6V7h12v10zM7 8h10v8H7V8z"/></svg>
           </div>
-          <h1 className="text-lg font-black tracking-tighter uppercase hidden sm:block">IMAGEMERGER</h1>
+          <h1 className="text-lg font-black tracking-tighter uppercase hidden sm:block">MERGEIT</h1>
         </div>
         
-        {/* Language Selector Dropdown with Toggle System */}
         <div className="relative">
           <button 
             onClick={() => setShowLangMenu(!showLangMenu)}
@@ -149,7 +148,6 @@ export default function App() {
             </svg>
           </button>
 
-          {/* Overlay for closing when clicking outside */}
           {showLangMenu && (
             <div 
               className="fixed inset-0 z-40 bg-black/5 backdrop-blur-[1px]" 
@@ -157,7 +155,6 @@ export default function App() {
             ></div>
           )}
 
-          {/* Dropdown Menu */}
           <div className={`absolute ${t.dir === 'rtl' ? 'left-0' : 'right-0'} top-full mt-2 w-48 bg-white shadow-[0_20px_50px_rgba(0,0,0,0.2)] rounded-3xl border border-slate-100 overflow-hidden transition-all duration-300 origin-top z-50 ${showLangMenu ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
             <div className="p-2 max-h-[70vh] overflow-y-auto custom-scrollbar">
               {languages.map(l => (
@@ -307,7 +304,7 @@ export default function App() {
                 <button 
                   onClick={() => {
                      const link = document.createElement('a');
-                     link.download = `COLLAGE_${Date.now()}.png`;
+                     link.download = `MERGEIT_${Date.now()}.png`;
                      link.href = finalImage;
                      link.click();
                   }}

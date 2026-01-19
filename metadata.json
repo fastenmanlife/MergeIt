@@ -1,6 +1,6 @@
 {
-  "name": "ImageMerger Pro",
-  "description": "A high-performance image stitching and merging tool with AI-powered safety filters and a YouTube community gate.",
+  "name": "MergeIt",
+  "description": "Professional High-Speed Multilingual Image Stitching Tool. Merge up to 20 images instantly with zero-scroll efficiency.",
   "requestFramePermissions": [
     "camera"
   ]
