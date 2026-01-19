@@ -1,0 +1,7 @@
+{
+  "name": "ImageMerger Pro",
+  "description": "A high-performance image stitching and merging tool with AI-powered safety filters and a YouTube community gate.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
